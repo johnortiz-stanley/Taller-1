@@ -5,7 +5,7 @@ class Program
     {
         // ==== JUGADORES EQUIPO 1 ====
         Jugador objJugador1 = new Jugador(
-            "Piero Hincapié",
+            "Moises Caicedo",
             25,
             4,
             "Defensa",
@@ -15,7 +15,7 @@ class Program
         );
 
         Jugador objJugador2 = new Jugador(
-            "Enner Valencia",
+            "William Pacho",
             32,
             7,
             "Delantero",
@@ -86,112 +86,5 @@ class Program
         Console.WriteLine("Partido creado entre " + objEquipo1.Nombre + " y " + objEquipo2.Nombre);
     }
 
-//using Taller_1.Desarrollo;
 
-//int opcion = 0;
-//do
-//{
-//    Console.Clear();
-//    Console.WriteLine("****************Bienvenido al Torneo de Futbol - ISTLC 2026****************");
-//    Console.WriteLine("Menú de Opciones:");
-//    Console.WriteLine("1.- Crear Jugadores");
-//    Console.WriteLine("2.- Listar Jugadores");
-//    Console.WriteLine("3.- Crear Equipos");
-//    Console.WriteLine("4.- Crear Partidos");
-//    Console.WriteLine("5.- Salir");
-//    Console.WriteLine("");
-//    Console.Write("Ingrese una opción: ");
-//    opcion = Convert.ToInt32(Console.ReadLine());
-
-
-//    switch (opcion)
-//    {
-//        case 1:
-//            crearJugador();
-//            break;
-//        case 2:
-//            listarJugadores();
-//            break;
-//        case 3:
-//            crearEquipo();
-//            break;
-//        case 4:
-//            crearPartido();
-//            break;
-//        case 5:
-//            Console.WriteLine("Saliendo del programa...");
-//            break;
-//        default:
-//            Console.WriteLine("Opción inválida. Por favor, intente nuevamente.");
-//            break;
-//    }
-
-//} while (opcion != 5);
-
-//void crearPartido()
-//{
-//    Console.Clear();
-//}
-
-//void crearEquipo()
-//{
-//    Console.Clear();
-//}
-
-//void crearJugador()
-//{
-//    Console.Clear();
-//    Console.WriteLine("Moises Caicedo");
-//    Console.WriteLine("William Pacho: ");
-//    string nombre = Console.ReadLine();
-//    Console.WriteLine("22: ");
-//    int edad = Convert.ToInt32(Console.ReadLine());
-//    Console.WriteLine("24: ");
-//    int numero = Convert.ToInt32(Console.ReadLine());
-//    Console.WriteLine("7: ");
-//    string posicion = Console.ReadLine();
-//    Console.WriteLine("Guayaquil: ");
-//    string lugarNacimiento = Console.ReadLine();
-//    Console.WriteLine("0918765341: ");
-//    string cedula = Console.ReadLine();
-//    Console.WriteLine("400: ");
-//    decimal sueldo = Convert.ToDecimal(Console.ReadLine());
-
-//    Jugador objJugador = new Jugador(nombre, edad, numero, posicion, lugarNacimiento, cedula, sueldo);
-//    Console.WriteLine("Jugador creado exitosamente.");
-//    Console.ReadLine();
-//}
-
-
-
-
-
-//Jugador objJugador1 = new Jugador("Piero Hincapié", 22, 4, "Defensa","Esmeraldas","0910655467",40000);
-
-//Jugador objJugador2 = new Jugador("Enner Valencia",32,5, "Delantero","Guayaquil","0999999999",54000);
-
-//Equipo objEquipo1= new Equipo("Emelec","Guayaquil","Azul");
-
-//objEquipo1.AgregarJugador(objJugador1);
-//objEquipo1.AgregarJugador(objJugador2);
-
-
-//objEquipo1.ListarPlantilla();
-
-//Jugador objJugador3 = new Jugador("Moiséc Caicedo", 23, 5, "Medio Campo", "Esmeraldas", "0910655467", 40000);
-
-
-//Jugador objJugador4 = new Jugador("Neiser Reascos", 45, 24, "Lateral", "Esmeraldas", "0910655467", 40000);
-
-//Equipo objEquipo2 = new Equipo("Barcelona","Guayaquil","Amarillo");
-
-//objEquipo2.AgregarJugador(objJugador3);
-//objEquipo2.AgregarJugador(objJugador4);
-
-
-
-//objEquipo2.ListarPlantilla();
-
-//Partido objPartido1= new Partido(objEquipo1, objEquipo2, DateTime.Now, "Guayaquil");
-//objPartido1.MostrarResumen();
-
+           
